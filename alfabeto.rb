@@ -1,0 +1,1 @@
+puts "nos vamos a la playa".split(/\W/).sort{|y, x|y.downcase<=>x.downcase}.join(' ')
